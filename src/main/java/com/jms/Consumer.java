@@ -14,7 +14,7 @@ import javax.jms.TextMessage;
 import javax.naming.InitialContext;
 
 
-public class App {
+public class Consumer {
     public static void main(String[] args) throws Exception {
         InitialContext context = new InitialContext();
         ConnectionFactory factory = (ConnectionFactory) context.lookup("ConnectionFactory");
